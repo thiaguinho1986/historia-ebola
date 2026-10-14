@@ -1,0 +1,160 @@
+* {
+    margin: 1;
+    padding: 1;
+}
+
+.black-ops-one-regular {
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    box-sizing: border-box;
+}
+
+nav {
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.logo {
+    width: 25%;
+    /*border: 1px solid red;*/
+    text-align: center;
+    padding-left: 5%;
+    background: #b9d4f9;
+}
+
+.menu {
+    width: 66%;
+    /*border: 1px solid green;*/
+    font-size: 20px;
+    text-align: right;
+    padding-top: 70px;
+    padding-right: 3%;
+    background: #b9d4f9;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.menu a {
+    padding: 20px;
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+main {
+    padding-top: 10px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.titulo {
+    width: 45%;
+    /*border: 1px solid aqua;*/
+    font-size: 24px;
+    text-align: center;
+    padding-left: 5%;
+}
+
+.imagem-continente {
+    width: 49%;
+    /*border: 1px solid black;*/
+    text-align: center;
+}
+
+.btn {
+    color: dodgerblue;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.transmissao {
+    padding-top: 20px;
+    padding-left: 5%;
+    width: 94%;
+    height: 100px;
+    /*border: 1px solid red;*/
+    font-size: 20px;
+    color: dodgerblue;
+    margin-top: 20px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.transmissao-detalhes {
+    height: 160px;
+    width: 30%;
+    /*border: 1px solid black;*/
+    text-align: center;
+    margin: 1%;
+    padding: 5px;
+    color: dodgerblue;
+    border-radius: 5px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.historico {
+    width: 91%;
+    height: 300px;
+    color: cadetblue;
+    /*border: 1px solid black;*/
+    padding: 5%;
+    margin-bottom: 5px;
+    
+}
+
+.vacinas {
+    width: 91%;
+    height: 300px;
+    color: cadetblue;
+    /*border: 1px solid black;*/
+    padding: 5%;
+}
+
+.biosseguranca {
+    padding-top: 20px;
+    padding-left: 5%;
+    width: 94%;
+    height: 100px;
+    /*border: 1px solid red;*/
+    font-size: 20px;
+    color: dodgerblue;
+    margin-top: 20px;
+}
+
+
+
+.biosseguranca-informacoes {
+    height: 440px;
+    width: 17%;
+    /*border: 1px solid black;*/
+    text-align: center;
+    margin: 1%;
+    padding: 5px;
+    color: dodgerblue;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+footer {
+    width: 99%;
+    height: 100px;
+    /*border: 1px solid green;*/
+    text-align: center;
+    align-items: center;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+

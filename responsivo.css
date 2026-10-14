@@ -1,0 +1,56 @@
+@media screen and (max-width:1024px) {
+    .nav {
+        position: relative;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .logo {
+        width: 100%;
+        height: 50%;
+        box-shadow: none;
+        background: none;
+    }
+
+    .titulo {
+        width: 100%;
+        height: 100%;
+        padding-top: 20px;
+    }
+
+    .imagem-continente {
+        width: 100%;
+        height: 100%;
+    }
+
+    .transmissao-detalhes {
+        width: 100%;
+        height: 25%;
+        padding-bottom: 10px;
+    }
+
+    .historico {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 10px;
+    }
+
+    .vacinas {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 10px;
+    }
+
+    .biosseguranca-informacoes {
+        width: 100%;
+        height: 18%;
+        padding-bottom: 10px;
+    }
+
+    footer {
+        padding-top: 10px;
+    }
+
+}
